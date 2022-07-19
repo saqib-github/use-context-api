@@ -5,8 +5,8 @@ export const UserContext = createContext();
 
 // This context provider is passed to any component requiring the context
 export const UserProvider = ({ children }) => {
-  const [name, setName] = useState("William");
-  const [location, setLocation] = useState("Mars");
+  const [name, setName] = useState("Saqib");
+  const [location, setLocation] = useState("Javed");
 
   return (
     <UserContext.Provider

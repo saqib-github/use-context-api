@@ -7,6 +7,7 @@ const Name = () => {
 
   return (
     <div style={{ marginTop: "30px" }}>
+       <h3>Component 1 👇</h3>
       <h2 className="is-size-4">
         <strong>Name</strong>: {user.name}
       </h2>
